@@ -1,0 +1,38 @@
+.contactList_item {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.item_text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.item_span {
+    font-size: 16px;
+    font-weight: 400;
+    color: blue;
+}
+
+.item_btn {
+    font-size: 16px;
+    font-weight: 500;
+    width: 70px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid rgb(23, 23, 23);
+    box-shadow: 2px 2px 14px -6px rgba(75, 75, 78, 1);
+    transition: transform 200ms cubic-bezier(0.17, 0.67, 0.83, 0.67),
+        color 200ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+.item_btn:hover,
+.item_btn:focus {
+    transform: scale(1.05);
+    color: rgb(248, 9, 9);
+}

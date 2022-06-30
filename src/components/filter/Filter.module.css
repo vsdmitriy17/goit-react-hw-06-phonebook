@@ -1,0 +1,29 @@
+.filter_label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: flex;
+    width: 280px;
+    transition: transform 200ms cubic-bezier(0.17, 0.67, 0.83, 0.67), color 200ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+.filter_label:hover,
+.filter_label:focus {
+    transform: scale(1.05);
+    color: rgb(248, 9, 9);
+}
+
+.filter_input {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 170px;
+    border-radius: 4px;
+    border: 1px solid rgb(23, 23, 23);
+    transition: transform 200ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
